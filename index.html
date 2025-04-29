@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Конструктор Резюме</title>
+  <!-- Link to stylesheet -->
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Конструктор Резюме</h1>
+    <!-- Main action buttons -->
+    <div class="button-group" id="main-menu">
+      <button id="create-btn">Створити резюме</button>
+      <button id="show-btn">Показати резюме</button>
+      <button id="download-json-btn">Експорт як JSON</button>
+      <button id="load-json-btn">Імпорт JSON</button>
+      <button id="clear-btn">Очистити резюме</button>
+      <button id="about-btn">Про застосунок</button>
+    </div>
+  </header>
+
+  <!-- Form container for resume fields -->
+  <div id="form-container"></div>
+
+  <!-- Modal for resume display -->
+  <div id="resume-modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div id="resume-display"></div>
+    </div>
+  </div>
+
+  <!-- Saved resumes container -->
+  <div id="saved-resumes-container"></div>
+
+  <!-- Main JS -->
+  <script src="script.js" type="module"></script>
+</body>
+</html>
