@@ -3,7 +3,7 @@
 Це простий односторінковий застосунок, що дозволяє створювати, переглядати, редагувати, зберігати та завантажувати резюме у форматі JSON. Дані зберігаються у `localStorage`.
 
 ## Userflow діаграма
-![UserflowDiagram](.github/images/Screenshot 2025-05-09 131351.png)
+![UserflowDiagram](.github/images/UserflowDiagram.png)
 
 ## Можливості
 - Створення нового резюме через форму
